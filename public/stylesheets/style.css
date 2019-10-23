@@ -1,0 +1,25 @@
+body {
+  padding  : 4%;
+  /* width : 96%; */
+  font     : "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+span {
+  display:inline
+}
+
+a {
+  color: #00B7FF;
+}
+
+.device-list {
+  max-width: 300px;
+}
+
+.device-list span {
+  overflow          : auto;
+  white-space       : nowrap; 
+  display           : -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
